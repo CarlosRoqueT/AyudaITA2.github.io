@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Ocultar la barra de desplazamiento horizontal por defecto */
+    overflow-x: hidden;
+  }
+  /* Mostrar la barra de desplazamiento horizontal después de la tercera fila */
+  tr:nth-child(n+4) {
+    overflow-x: auto;
+  }
